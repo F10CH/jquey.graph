@@ -1,4 +1,3 @@
-// graph2.js (needs jquery)
 var jQuery;
 if(!jQuery) throw 'jQuery needed'
 
@@ -492,7 +491,8 @@ jQuery.fn.CanvasGraph = function(config, appendTo){
 };
 
 jQuery.fn.CanvasGraph.version = "1.0.0";
-jQuery.fn.CanvasGraph.git = "1.0.0";
+jQuery.fn.CanvasGraph.git = "https://github.com/F10CH/jquey.graph.git";
+jQuery.fn.CanvasGraph.home = jQuery.fn.CanvasGraph.git
 
 jQuery.CanvasGraph = function(selector, config){
 	return $(selector).CanvasGraph(config)
