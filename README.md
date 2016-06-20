@@ -1,4 +1,4 @@
-# jquey.graph.js
+# jquery.graph.js
 
 Make bar graphics or pie charts using HTML5 canvas
 
